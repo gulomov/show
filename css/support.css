@@ -1,0 +1,146 @@
+.navbar{
+    border-radius: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+#logoName{
+    margin-top: 25px;
+
+}
+a{
+    color: #000;
+}
+.underNavA:hover{
+    color: #990000;
+
+}
+.underNavA{
+    font-size: 10pt;
+    margin-left: 30px;
+    color: black;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.underNavP{
+    color: black;
+    margin-top: 35px;
+}
+
+#eptyCol1{
+    margin-left: 60px;
+}
+#eptyCol2{
+    margin-left: 240px;
+}
+#eptyCol3{
+    margin-left: 410px;
+}
+
+    .col{
+    margin-top: 10px;
+}
+.well{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.well:hover{
+    border-radius: 100px;
+    border-color: darkgreen;
+}
+.inWell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.inWell:hover{
+    color: black;
+}
+.col-md-10{
+    margin-top: 10px;
+}
+#КомКурс{
+    color: white;
+    background-color: black;
+    font-size: 14px;
+}
+.SWS{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+}
+.SWS:hover{
+    background-color: black;
+    font-size: 30px;
+}
+#foot{
+    background-color: #000000;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 116px;
+}
+#col1{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Calibri, serif;
+    color: white;
+}
+.fot{
+    color: white;
+}
+.fot:hover{
+    color: white;
+    background-color: black;
+}
+#col3{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Calibri, serif;
+    color: white;
+}
+#col4{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Calibri, serif;
+    color: white;
+
+}
+#col2{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Calibri, serif;
+    color: white;
+}
+.btn-primary{
+    font-size: 23pt;
+    background-color: green;
+}
+#Узнать{
+    font-size: 24pt;
+    background-color: #3c3c3c;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.col-md-4{
+margin-left: 110px;
+}
+.emptyCol{
+    margin-left: 80px;
+}
+#beffoot{
+    margin-top: 46px;
+    background-color: #e8e8e8;
+}
+.col3{
+    margin-top: 20px;
+}

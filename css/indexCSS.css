@@ -1,0 +1,299 @@
+.navbar{
+    border-radius: 0px;
+}
+#list{
+    font-size: 25px;
+    margin-top: 5px;
+    width: 50px;
+}
+#number{
+    font-size: 15pt;
+    color: white;
+    font-family: Calibri, serif;
+    margin-left: 44px;
+    margin-top: 18px;
+
+}
+
+#CallOnline{
+    font-size: 14pt;
+    color: white;
+    font-family: Calibri, serif;
+    margin-left: 20px;
+    margin-top: 6px;
+
+}
+#поддержка{
+    font-size: 14pt;
+    margin-left: 20px;
+    color: white;
+    margin-top: 6px;
+}
+#Бан{
+    font-size: 14pt;
+    margin-left: 20px;
+    color: white;
+    margin-top: 6px;
+}
+#Прес{
+    font-size: 14pt;
+    margin-left: 20px;
+    color: white;
+    margin-top: 6px;
+}
+#Кар{font-size: 14pt;
+    margin-left: 20px;
+    color: white;
+    margin-top: 6px;
+}
+#Язык{
+    font-size: 10pt;
+    margin-left: 5px;
+    color: white;
+    margin-top: 6px;
+}
+#logo{
+    margin-left: 60px;
+
+}
+#logoName{
+    font-family: "Times New Roman", serif;
+    font-size: 20pt;
+    margin-top: 24px;
+    margin-left: -50px;
+
+
+}
+#ЧасКл{
+    font-family: Calibri, serif;
+    font-size: 14pt;
+    margin-top: 24px;
+    margin-left: 70px;
+}
+#дляБиза{
+    font-family: Calibri, serif;
+    font-size: 14pt;
+    margin-top: 24px;
+    margin-left: 71px;
+
+}
+#PersonClub{
+
+    font-family: Calibri, serif;
+    font-size: 14pt;
+    margin-top: 24px;
+    margin-left: 71px;
+}
+#БанкСегодня{
+    font-family: Calibri, serif;
+    font-size: 14pt;
+    margin-top: 24px;
+    margin-left: 71px;
+}
+#ИнетБанк{
+    font-family: Calibri, serif;
+    font-size: 14pt;
+    margin-top: 13px;
+    margin-left: 35px;
+
+}
+a{
+    color: black;
+}
+
+
+a:hover{
+
+    background-color: #990000;
+}
+.bgimg-1 {
+    padding: 15%;
+    color: #fff;
+    background: url("../images/city.jpg") fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#order{
+    font-size: 20pt;
+    background-color: #990000;
+    color: white;
+}
+#it1b1{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#it1b2{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#it1b3{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#it2b1{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#it2b2{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#it2b3{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#it3b1{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#it3b2{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#it3b3{
+    font-size: 38pt;
+    font-family: Calibri, serif;
+}
+#btn1{
+    font-size: 30px;
+}
+#btn2{
+    font-size: 30px;
+}
+#btn3{
+    font-size: 30px;
+}
+.input-group{
+    margin-top: 81px;
+    margin-bottom: 15px;
+}
+a:hover.carousel-control{
+    background-color: inherit;
+}
+#CardNumBtn1_1{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+#CardNumBtn1_2{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+#CardNumBtn1_3{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+#CardNumBtn2_1{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+#CardNumBtn2_2{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+#CardNumBtn2_3{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+#CardNumBtn3_1{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+#CardNumBtn3_2{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+#CardNumBtn3_3{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 100px;
+}
+
+.well{
+    background-color: white;
+}
+
+.card{
+    margin-left: 14px;
+    color: #000;
+}#CardNum{
+    color: black;
+ }
+.btn-info{
+    font-family: Calibri, serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#beginOfColl{
+    margin-top: 30px;
+
+}
+#foot{
+    background-color: #000000;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+#col1{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Calibri, serif;
+    color: white;
+}
+#col2{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Calibri, serif;
+    color: white;
+}
+.btn-primary{
+    font-size: 23pt;
+    background-color: green;
+}
+.fot{
+    color: white;
+}
+.fot:hover{
+    color: white;
+    background-color: black;
+}
+#col3{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Calibri, serif;
+    color: white;
+}
+.SWS{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+}
+.SWS:hover{
+    background-color: black;
+    font-size: 30px;
+}
+#col4{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Calibri, serif;
+    color: white;
+
+}
+#КомКурс{
+    color: white;
+    background-color: black;
+    font-size: 14px;
+}
