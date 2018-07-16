@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/indexCSS.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li> <a id="list"><span class="fa fa-th-list"></span></a></li>
+            <li><a >+38 044 290 7 290</a></li>
+            <li><a href="#" >Позванить online</a> </li>
+            <li><a href="Support.html" >Поддержка</a></li>
+            <li><a href="map.html" >Банкоматы и отделения  </a></li>
+            <li><a href="#" >Пресс-центр</a></li>
+            <li><a href="Career.html" >Карера в банке</a></li>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" ><span class="caret"></span>Rus</a>
+                    <ul class="dropdown-menu dropdown-menu-right ">
+                        <li><a href="#">Eng</a></li>
+                        <li><a href="#">Uzb</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+   <nav class="menu">
+        <div class="logo">
+                <a href="#"><img src="./images/davrLogo.png" width="100%" ></a>
+               </div>
+            <div id="menu">
+                <h1 id="logoName">Працимао для вас</h1>
+                <p id="ЧасКл"> <a href="#" >Частным клиентам </a></p>
+                <p id="дляБиза"> <a href="#" >Для бизнеса</a></p>
+                <p id="PersonClub"> <a href="#" >Persona club</a>  </p>
+                <p id="БанкСегодня"> <a href="#" >Банк сегодня</a></p>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ИнетБанк">Интернет банкинг<span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-right ">
+                        <li><a href="#">Пумб online частным клиентам</a></li>
+                        <li><a href="#">Пумб online корпаративным клиентам</a></li>
+                    </ul>
+            </div>
+   </nav>
+    </div>
+    <div class="row">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active bgimg-1">
+
+                    <h1 id="it1b1">Кредит ВСЕЯСНО</h1>
+                    <h2 id="it1b2">Платишь всего лишь 2,26 </h2>
+                    <h2 id="it1b3">в день</h2>
+                    <button type="button" class="btn btn-danger" id="btn1">Заказать</button>
+                </div>
+                <div class="item bgimg-2">
+
+                    <h1 id="it2b1">Пополняйте без коми</h1>
+                    <h2 id="it2b2">Мобильный </h2>
+                    <h2 id="it2b3">Без комиссии</h2>
+                    <button type="button" class="btn btn-danger" id="btn2">Заказать</button>
+                </div>
+                <div class="item bgimg-3">
+                    <h1 id="it3b1">ВКЛЮЧАЙ</h1>
+                    <h2 id="it3b2">Эмоции с</h2>
+                    <h2 id="it3b3">ПУМБ</h2>
+                    <button type="button" class="btn btn-danger" id="btn3">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Поиск">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item" style="width:350px">
+                        <div class="well" >
+                            <p class="card">Перевести деньги на карту</p>
+                            <div class="col-md-7">
+                                <input  class="form-control" placeholder="номер карты">
+                            </div>
+                            <div class="col-md-5">
+                                <input class="form-control" placeholder="сума">
+                            </div>
+                             <a type="button" href="MoneyTransfer.html" class="btn btn-success" id="CardNumBtn1_1"> СДЕЛАТЬ</a>
+                        </div>
+                    </div>
+                    <div class="item" style="width:350px">
+
+                        <div class="well" >
+                            <p class="card">Пополнить мобильный </p>
+                            <div class="col-md-7">
+                                <input  class="form-control" placeholder="номер карты">
+                            </div>
+                            <div class="col-md-5">
+                                <input class="form-control" placeholder="сума">
+                            </div>
+                            <button type="button" class="btn btn-success" id="CardNumBtn1_1">СДЕЛАТЬ</button>
+                        </div>
+                    </div>
+                    <div class="item" style="width:350px">
+                        <div class="well" >
+                            <p class="card">Заказать кредит</p>
+                            <div class="col-md-6">
+                                <input  class="form-control" placeholder="Укажите имя">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="Ваш телефон ">
+                            </div>
+                            <button type="button" class="btn btn-success" id="CardNumBtn1_1">СДЕЛАТЬ</button>
+                            <label><input type="checkbox" value="">Мне 25 лет <a href="#"></a> </label>
+                            <label><input type="checkbox" value="">Работяю </label>
+                        </div>
+                    </div>
+                    <div class="item" style="width:350px">
+                        <div class="well" >
+                            <p class="card">Погасить кредит </p>
+                            <div class="col-md-6">
+                                <input  class="form-control" placeholder="Номер счета">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="ИНН заемщика">
+                            </div>
+                            <button type="button" class="btn btn-success" id="CardNumBtn1_1">СДЕЛАТЬ</button>
+
+                        </div>
+                    </div>
+                    <div class="item" style="width:350px">
+                        <div class="well" >
+                            <p class="card">Открыть текущий счет </p>
+                            <div class="col-md-6">
+                                <input  class="form-control" placeholder="Укажите имя ">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="Ваш телефон">
+                            </div>
+                            <button type="button" class="btn btn-success" id="CardNumBtn1_1">ДАЛЕ</button>
+                            <label id="smText"><input type="checkbox" value="">Разрешить обработку данных</label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">MORE</button>
+                    <div id="demo" class="collapse">
+                        <p id="beginOfColl">Первый Украинский Международный Банк (ПУМБ) входит в  десятку крупнейших и самых надежных банков Украины. Основанный в 1991 году, ПУМБ обслуживает как  частных, так и  корпоративных клиентов. Деятельность банка сосредоточена на коммерческих, розничных и инвестиционно-банковских операциях.
+
+                            Главный акционер банка  — ООО «СКМ Финанс»(92,24% акций). Компания является  одной из ведущих украинских промышленных холдингов, которые определяют экономику Украины и Восточной Европы.</p>
+                        <h1>Надежность</h1>
+                        <p>
+
+                            Всеукраинская сеть ПУМБ насчитывает 200 отделений и 800 точек продаж. С банком сотрудничают 30 тыс. корпоративных и 1,5 млн частных клиентов. По официальной статистике НБУ за 2017 год, ПУМБ стоит на 4 месте в рейтинге самых прибыльных банков Украины — прибыль по состоянию на август составила 593 млн грн.
+
+                            Первый Украинский Международный Банк входит в ТОП-10 по депозитам и кредитованию физических лиц.</p>
+                        <h1>Качество услуг</h1>
+                        <p>Постоянно повышаем качество наших услуг. Оформляем кредит за час, а вкладчиков обслуживаем вне очереди. Техническая поддержка работает 24/7. На официальном сайте вы можете задать вопрос сотруднику банка, оставить свое предложение или просьбу и посмотреть отзывы о банке ПУМБ. Работает онлайн-чат с ботом-консультантом, который отвечает на вопросы пользователей.
+
+                            Банк ПУМБ следит, чтобы уровень обслуживания соответствовал международным стандартам. Если вам что-то не понравилось во время посещения отделения или при общении в телефонном режиме, сообщите об этом в отдел качества обслуживания.</p>
+                        <h1>Удобство для клиентов</h1>
+                        <p>Создаем отдельные пакеты услуг для различных профессий и сфер деятельности. Предоставляем следующие пакеты для бизнеса
+
+                            «Універсальний»;
+                            «Міжнародний»;
+                            «Підприємець»;
+                            «Торгівля»;
+                            «Агро»;
+                            «ОСББ»;
+                            «Coder».
+                            Частным клиентам предлагаем карты« Миттєва»,«Дбайлива»,« Безмежна». Для моряков, IT-специалистов и социальных выплат предоставляем отдельные карты.
+
+                            Предлагаем гибкие условия вкладов и кредитование для бизнеса и частных клиентов. Все доступные тарифы вы можете посмотреть на нашем сайте в соответствующих разделах.
+
+                            Прочие услуги банка ПУМБ:
+
+                            переводы с карты на карту;
+                            депозитарные услуги в ЦБ;
+                            инкассация;
+                            индивидуальный сейф;
+                            интернет и SMS-банкинг;
+                            страхование.
+
+
+
+
+                            Чтобы иметь все наши сервисы под рукой, вы можете скачать приложение<span style="color: red"> ПУМБ-mobile</span> на свой телефон</p>
+                    </div>
+                </div>
+            </div>
+        <footer>
+        <div class="row" id="foot">
+            <div class="col-md-3" id="col1">
+                <p><a class="fot">Ссылки</a></p>
+                <p><a class="fot">Поддержка</a></p>
+                <p><a class="fot">О банке</a></p>
+                <p><a class="fot">Устойчвое развитие</a></p>
+                <p><a class="fot">Тренды</a></p>
+                <p><a class="fot">Заложенное имущесто</a></p>
+                <p><a class="fot">Недвижемость банка</a></p>
+                <p><a class="fot">Фонд гарантирования вкладов</a></p>
+                <p><a class="fot">Выплата с экскроу счета</a></p>
+            </div>
+            <div class="col-md-3" id="col2">
+                <p>Свяжитесь с нами</p>
+                <p>+38 044 290 7 290</p>
+                <p>+38 096 290 7 290</p>
+                <p>+38 050 290 7 290</p>
+                <p>+38 093 290 7 290</p>
+                <button type="button" class="btn btn-primary">Call me</button>
+            </div>
+            <div class="col-md-3" id="col3">
+                <p class="text-left">Мы социальны</p>
+                <div class="row">
+                    <div class="col-md-2">
+                        <a class="SWS"><span class="fa fa-facebook"></span></a>
+                        <a class="SWS"><span class="fa fa-twitch"></span></a>
+                        <a class="SWS"><span class="fa fa-youtube"></span></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a class="SWS"><span class="fa fa-instagram"></span></a>
+                        <a class="SWS"><span class="fa fa-twitter"></span></a>
+                        <a class="SWS"><span class="fa fa-snapchat-ghost"></span></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a class="SWS"><span class="fa fa-google-plus-circle"></span></a>
+                        <a class="SWS"><span class="fa fa-linkedin"></span></a>
+                        <a class="SWS"><span class="fa fa-telegram"></span></a>
+                    </div>
+                    <div class="col-md-offset-6"></div>
+                </div>
+            </div>
+            <div class="col-md-3" id="col4">
+                <p>Курс валюты            ДАТА</p>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Покупка</th>
+                        <th>Продажа</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>USD</td>
+                        <td>26.10</td>
+                        <td>26.30</td>
+                    </tr>
+                    <tr>
+                        <td>EUR</td>
+                        <td>30.50</td>
+                        <td>30.90</td>
+                    </tr>
+                    <tr>
+                        <td>RUB</td>
+                        <td>0.407</td>
+                        <td>0.417</td>
+                    </tr>
+                    <tr>
+                        <td>GBP</td>
+                        <td>34.00</td>
+                        <td>35.00</td>
+                    </tr>
+                    <tr>
+                        <td>CHF</td>
+                        <td>26.00</td>
+                        <td>26.50</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p><a id="КомКурс" href="#">Комерческий курс</a>(по операциям списания средств в валюте, отличной от валюты счёта)</p>
+            </div>
+
+        </div>
+        </footer>
+        <script src="./OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="javascript"></script>
+        <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('.owl-carousel').owlCarousel({
+                margin:40,
+                loop:false,
+                autoWidth:true,
+                items:4
+            })
+        </script>
+    </div>
+</body>
+</html>
+<!--
+   <nav class="menu">
+        <ul class="nav navbar-nav me">
+            <div class="logo">
+                <a href="#"><img src="./images/logo.png" width="100%" ></a>
+                <li><h1 id="logoName">Працимао для вас</h1></li>
+
+            </div>
+        </ul>
+        <ul class="nav navbar-nav">
+            <div id="menu">
+               <li><p id="ЧасКл"> <a href="#" >Частным клиентам </a></p> </li>
+                <li><p id="дляБиза"> <a href="#" >Для бизнеса</a></p></li>
+                <li><p id="PersonClub"> <a href="#" >Persona club</a>  </p></li>
+                <li><p id="БанкСегодня"> <a href="#" >Банк сегодня</a></p></li>
+                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ИнетБанк">Интернет банкинг<span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-right ">
+                        <li><a href="#">Пумб online частным клиентам</a></li>
+                        <li><a href="#">Пумб online корпаративным клиентам</a></li>
+                    </ul>
+                </li>
+            </div>
+        </ul>
+   </nav>
+-->
